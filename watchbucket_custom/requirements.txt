@@ -1,5 +1,5 @@
 boto==2.40.0
-qencode
+qencode==0.9.1
 urllib2
 httplib
 ssl
