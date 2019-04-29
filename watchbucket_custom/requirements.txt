@@ -1,0 +1,6 @@
+boto==2.40.0
+qencode
+urllib2
+httplib
+ssl
+json

@@ -1,0 +1,19 @@
+{"query": {
+    "source": "{source}",
+    "format": [
+      {
+        "output": "mp4",
+        "destination": {
+            "url": "{s3_url}",
+            "key": "{s3_key}",
+            "secret": "{s3_secret}"
+        },
+        "file_extension": "mp4",
+        "video_codec": "libx264",
+        "quality": "23",
+        "audio_bitrate": "128",
+        "size": "320x240"
+      }
+    ]
+  }
+}
