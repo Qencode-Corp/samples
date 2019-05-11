@@ -143,7 +143,7 @@ def worker():
       log.error(task.message)
       continue
     query = prepare_query(query_template, source_url=item['url'])
-    task.custom_start(None, query=query)
+    task.custom_start(query)
     if task.error:
       log.error(task.message)
       continue
